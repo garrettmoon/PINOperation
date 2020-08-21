@@ -256,9 +256,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3201179324444859004FD783 /* Build configuration list for PBXNativeTarget "PINOperation-watchOS" */;
 			buildPhases = (
-				3201178724444859004FD783 /* Headers */,
 				3201178824444859004FD783 /* Sources */,
 				3201178924444859004FD783 /* Frameworks */,
+				3201178724444859004FD783 /* Headers */,
 				3201178A24444859004FD783 /* Resources */,
 			);
 			buildRules = (
@@ -591,7 +591,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pinterest.PINOperation-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinterest.PINOperation;
 				PRODUCT_NAME = PINOperation;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -618,7 +618,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pinterest.PINOperation-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinterest.PINOperation;
 				PRODUCT_NAME = PINOperation;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
